@@ -1,3 +1,15 @@
-.terraform
-terraform.tfstate.backup
+[Tt]humbs.db
+.DS_Store
 
+.envrc
+
+.idea/
+.vscode/
+
+# Terraform temp files that might contain secrets
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+
+# Straz output, but not templates
+/secrets/
