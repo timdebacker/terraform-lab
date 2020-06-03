@@ -22,12 +22,10 @@ variable "user_data" {
 
 variable "security_groups" {
     type = list(string)
-    // ["sg-0ed3c675"]
 }
 
 variable "subnets" {
     type = list(string)
-    // ["subnet-663cdf2f"]
 }
 
 variable "min_instances" {

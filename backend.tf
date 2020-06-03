@@ -1,3 +1,4 @@
+// Initialize the backend module by filling out all the input params. 
 module "backend" {
     source = "./backend"
     project = "friyay-timdb"

@@ -1,5 +1,5 @@
 locals {
-  // use var for input parameters
+  // Tip use var for input parameters, locals for private variables.
   name_tag = "Name"
 }
 

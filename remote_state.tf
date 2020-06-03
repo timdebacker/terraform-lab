@@ -1,3 +1,6 @@
+// Defines where the Terraform state will live. By default this is on local disk
+// within the project.
+
 terraform {
     backend "s3" {
         bucket               = "friyay"
